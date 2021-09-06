@@ -194,7 +194,7 @@ footer a {
 
   /* Responsive layout - makes a one column-layout instead of two-column layout */
   @media (max-width: 800px) {
-    .about {
+    #about {
       flex-direction: column;
     }
     #project {
