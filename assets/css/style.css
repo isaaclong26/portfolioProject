@@ -1,0 +1,105 @@
+
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(88, 88, 88);
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    flex: 1 0 10%;
+    position: fixed;
+    width: 100%;
+    
+
+}
+header a {
+    color: #eef5fc;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+#about{
+    display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 60px;
+  border-width: 20px;
+    border-color: white;
+    border-style: solid;
+}
+
+#about section{
+    width: 50%;
+    text-align: center;
+    border-style: solid;
+    flex:50%;
+}
+
+
+  
+  
+  .left{
+    
+    
+    flex: 50%;
+  }
+  
+  .right {
+        
+      flex: 50%;
+      
+     
+      
+  }
+  
+
+#project{
+
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        text-align: center;
+        
+        
+        margin-bottom: 20px;
+       
+}
+
+#project .left,#project .right{
+    border-width: 20px;
+      border-color: white;
+      border-style: solid;
+      
+}
+#project img:hover{
+    transform: scale(115%);
+}
+
+
+
+
+
+
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .about {
+      flex-direction: column;
+    }
+    #project {
+        flex-direction: column;
+      }
+  }
+
+
+
+
+
+
+  
