@@ -17,14 +17,10 @@
 
 
 
-header{
+#headerBar{
     background-color: rgb(88, 88, 88);
-    padding: 10px;
-    display: flex;
-    text-align: center;
-    flex: 1 0 10%;
-    position: fixed;
-    width: 100%;
+    z-index: 20;
+    
     
 
 }
@@ -32,12 +28,11 @@ header a {
     color: #eef5fc;
     padding: 14px 20px;
     text-decoration: none;
-    text-align: center;
+    
   }
   
 #about{
-    display: flex;
-  flex-direction: row;
+    
   font-size: 30px;
   text-align: center;
   padding-top: 60px;
@@ -59,21 +54,6 @@ header a {
 
 
 
-  
-  .left{
-    
-    
-    flex: 50%;
-  }
-  
-  .right {
-        
-      flex: 50%;
-      
-     
-      
-  }
-  
 
 #project{
 
@@ -125,16 +105,9 @@ footer a {
 
 
 /* Button used to open the contact form - fixed at the bottom of the page */
-.open-button {
-  
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  background-color: rgb(88, 88, 88) ;
-  width: 280px;
-  right: 20px;
-  position: fixed;
+#contactMe{
+  color:#eef5fc;
+  background-color: #353535d5;
 }
 
 /* The popup form - hidden by default */
@@ -207,8 +180,9 @@ footer a {
   }
 
 
-
-
+#projects{
+  margin: auto;
+max-width: 70%;}
 
 
   
